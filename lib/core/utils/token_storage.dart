@@ -1,0 +1,14 @@
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
+class TokenStorage {
+  static const _storage = FlutterSecureStorage();
+  static const _key = 'jwt_token';
+
+  static Future<void> save(String token)  => _storage.write(key: _key, value: token);
+  static Future<String?> get()            => _storage.read(key: _key);
+  static Future<void> delete()            => _storage.delete(key: _key);
+  static Future<bool> hasToken() async {
+    final t = await _storage.read(key: _key);
+    return t != null && t.isNotEmpty;
+  }
+}
