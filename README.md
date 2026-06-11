@@ -1,4 +1,4 @@
 # finance_tracker
 
-A new Flutter project.
-
+demo page
+https://finance-tracker-maj.pages.dev/
