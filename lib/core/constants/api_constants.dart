@@ -1,5 +1,5 @@
 class ApiConstants {
-  static const String baseUrl = 'https://ravenapi.runasp.net'; // ← replace with your IP
+  static const String baseUrl = 'http://ravenapi.runasp.net'; // ← replace with your IP
 
   // Auth
   static const String login    = '$baseUrl/api/Auth/login';
