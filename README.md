@@ -1,4 +1,5 @@
 # finance_tracker
 
-demo page
+flutter web demo page
+
 https://finance-tracker-maj.pages.dev/
